@@ -1,12 +1,12 @@
 {
-  "name": "@kousaku-maron/o3-search",
-  "version": "0.0.4",
+  "name": "@kousaku-maron/o3-search-mcp",
+  "version": "0.0.1",
   "type": "module",
   "author": "@kousaku-maron",
   "license": "MIT",
   "description": "mcp server for web search by OpenAI o3 model",
   "bin": {
-    "@kousaku-maron/o3-search": "./build/index.js"
+    "@kousaku-maron/o3-search-mcp": "./build/index.js"
   },
   "main": "./build/index.js",
   "module": "./build/index.js",

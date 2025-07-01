@@ -9,7 +9,7 @@ This package provides an MCP server that enables AI agents to perform advanced w
 ## Installation
 
 ```bash
-npm install @kousaku-maron/o3-search
+npm install @kousaku-maron/o3-search-mcp
 ```
 
 ## Prerequisites
@@ -32,7 +32,7 @@ The server can be configured using environment variables:
 Run the server directly:
 
 ```bash
-@kousaku-maron/o3-search
+@kousaku-maron/o3-search-mcp
 ```
 
 Or use it in your MCP configuration file:
@@ -41,7 +41,7 @@ Or use it in your MCP configuration file:
 {
   "mcpServers": {
     "o3-search": {
-      "command": "@kousaku-maron/o3-search"
+      "command": "@kousaku-maron/o3-search-mcp"
     }
   }
 }
@@ -57,9 +57,9 @@ Or use it in your MCP configuration file:
 
 ```javascript
 // The tool accepts natural language queries like:
-"What are the latest developments in AI?"
-"How to fix TypeError in Node.js?"
-"Current weather in Tokyo"
+"What are the latest developments in AI?";
+"How to fix TypeError in Node.js?";
+"Current weather in Tokyo";
 ```
 
 ## Development
